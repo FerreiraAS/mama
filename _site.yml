@@ -2,8 +2,8 @@
 title: Grupo MAMA
 date: '`r format(Sys.Date())`'
 author:
-  - name: Arthur de Sá Ferreira, DSc
-  - email: arthur_sf@icloud.com
+  - name: Daniele Mendonça Ferreira, DSc
+  - email: daniele_ferreira@id.uff.br
 repository_url: https://github.com/FerreiraAS/MAMA
 creative_commons: CC BY-NC-SA
 output_dir: docs
@@ -45,8 +45,8 @@ navbar:
     - text: "Cursos"
       href: [cursos.html]
       menu:
-        - text: "SIGPROJ"
-          href: [cursos.html#sigproj]
+        - text: "Curso IHAC"
+          href: [cursos.html#ihac]
         - text: "Oficina Currículo Lattes"
           href: [cursos.html#oficina-lattes]
     - text: "Parceiros"
@@ -57,7 +57,7 @@ navbar:
           menu:
             - text: "Comitê gestor"
               href: [parceiros.html#comite]
-            - text: "Consultoriasr"
+            - text: "Consultoria"
               href: [parceiros.html#consultorias]
             - text: "Apoiadoras"
               href: [parceiros.html#apoiadoras]
@@ -152,15 +152,18 @@ navbar:
           href: [galeria.html#foderes]
 
   right:
-    - text: "Fale conosco"
+    - text: ""
       icon: "fa-envelope"
-      href: [mailto:arthur_sf@icloud.com]
+      href: [mailto:daniele_ferreira@id.uff.br]
     - text: ""
       icon: "fa-instagram"
-      href: [https://github.com/FerreiraAS/MAMA]
+      href: [https://www.instagram.com/mulheresapoiandoamamentacao/]
     - text: ""
       icon: "fa-facebook"
-      href: [https://github.com/FerreiraAS/MAMA]
+      href: [https://www.facebook.com/groups/mulheresapoiandoamamentacao]
+    - text: ""
+      icon: "fa-youtube"
+      href: [https://www.youtube.com/channel/UCbqJE-905nMIkvQzrEKMJ8Q]
     - text: ""
       icon: "fa-github"
       href: [https://github.com/FerreiraAS/MAMA]
@@ -169,8 +172,6 @@ output:
   html_document:
     theme: flatly
     highlight: textmate
-    css:
-      - style.css
     toc: true
     toc_depth: 3
     toc_float: true
