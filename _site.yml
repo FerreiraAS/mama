@@ -1,0 +1,191 @@
+---
+title: Grupo MAMA
+date: '`r format(Sys.Date())`'
+author:
+  - name: Arthur de Sá Ferreira, DSc
+  - email: arthur_sf@icloud.com
+repository_url: https://github.com/FerreiraAS/MAMA
+creative_commons: CC BY-NC-SA
+output_dir: docs
+include:
+  - header.html
+  - footer.html
+bibliography:
+  - references.bib
+link-citations: yes
+navbar:
+  left:
+    - text: ""
+      icon: "fa-home"
+      href: [index.html]
+    - text: "Programa"
+      href: [programa.html]
+      menu:
+        - text: "Apresentação"
+          href: [programa.html#apresentacao]
+        - text: "Descrição"
+          href: [programa.html#descricao]
+        - text: "Dados cadastrais"
+          href: [programa.html#dados-cadastrais]
+        - text: "SIGPROJ"
+          href: [programa.html#sigproj]
+    - text: "Diretório CNPq"
+      href: [diretorio.html]
+      menu:
+        - text: "Breve histórico"
+          href: [diretorio.html#historico]
+          menu:
+            - text: "2022"
+              href: [diretorio.html#2022]
+            - text: "2021"
+              href: [diretorio.html#2021]
+            - text: "2020"
+              href: [diretorio.html#2020]
+        - text: "Linhas de pesquisa"
+          href: [diretorio.html#linhas]
+        - text: "Projetos de pesquisa"
+          href: [diretorio.html#projetos]
+    - text: "Cursos"
+      href: [cursos.html]
+      menu:
+        - text: "SIGPROJ"
+          href: [cursos.html#sigproj]
+        - text: "Oficina Currículo Lattes"
+          href: [cursos.html#oficina-lattes]
+    - text: "Parceiros"
+      href: [parceiros.html]
+      menu:
+        - text: "Pessoas"
+          href: [parceiros.html#pessoas]
+          menu:
+            - text: "Comitê gestor"
+              href: [parceiros.html#comite]
+            - text: "Consultoriasr"
+              href: [parceiros.html#consultorias]
+            - text: "Apoiadoras"
+              href: [parceiros.html#apoiadoras]
+            - text: "Grupos de pesquisa"
+              href: [parceiros.html#grupos]
+            - text: "Grupos de pesquisa externos"
+              href: [parceiros.html#grupos-externos]
+            - text: "Participanteas externos"
+              href: [parceiros.html#participantes-externos]
+    - text: Produções
+      href: [producoes.html]
+      menu:
+        - text: "Trabalhos de conclusão de curso"
+          href: [producoes.html#tcc]
+          menu:
+            - text: "Em andamento"
+              href: [producoes.html#tcc-andamento]
+            - text: "Concluídos"
+              href: [producoes.html#tcc-concluido]
+        - text: "Repositórios"
+          href: [producoes.html#repositorios]
+        - text: "Produção bibliográfica"
+          href: [producoes.html#bibliografica]
+          menu:
+            - text: "Artigos completos em periódicos"
+              href: [producoes.html#artigos-completos]
+            - text: "Artigos resumos em periódicos"
+              href: [producoes.html#artigos-resumos]
+            - text: "Livros e capítulos"
+              href: [producoes.html#livros-capítulos]
+        - text: "Produção técnica"
+          href: [producoes.html#tecnica]
+          menu:
+            - text: "Trabalhos em anais de eventos"
+              href: [producoes.html#eventos]
+            - text: "Guias de orientação"
+              href: [producoes.html#guias]
+        - text: "Apresentação de trabalhos"
+          href: [producoes.html#apresentacao]
+          menu:
+            - text: "Conferências"
+              href: [producoes.html#conferencias]
+            - text: "Palestras"
+              href: [producoes.html#palestras]
+            - text: "Mesas redondas"
+              href: [producoes.html#mesas]
+            - text: "Comunicação oral"
+              href: [producoes.html#oral]
+            - text: "Pôster"
+              href: [producoes.html#poster]
+        - text: "Métricas"
+          href: [producoes.html#metricas]
+    - text: Destaques
+      href: [destaques.html]
+      menu:
+        - text: "Atenção e visibilidade"
+          href: [destaques.html#visibilidade]
+          menu:
+            - text: "Artigos relacionados"
+              href: [destaques.html#relacionados]
+            - text: "Dissetações e teses"
+              href: [destaques.html#dissertacoes-teses]
+            - text: "Prêmios"
+              href: [destaques.html#premios]
+            - text: "Divulgação"
+              href: [destaques.html#divulgacao]
+    - text: Impacto
+      href: [impacto.html]
+      menu:
+        - text: "Impacto educacional"
+          href: [impacto.html#educacional]
+          menu:
+            - text: "Bolsas"
+              href: [impacto.html#bolsas]
+        - text: "Impacto sociocultural"
+          href: [impacto.html#sociocultural]
+          menu:
+            - text: "Eventos"
+              href: [impacto.html#eventos]
+    - text: Galeria
+      href: [galeria.html]
+      menu:
+        - text: "Fotos"
+          href: [galeria.html#fotos]
+        - text: "Videos"
+          href: [galeria.html#videos]
+        - text: "Podcasts"
+          href: [galeria.html#podcasts]
+        - text: "Posts"
+          href: [galeria.html#posts]
+        - text: "Folderes"
+          href: [galeria.html#foderes]
+
+  right:
+    - text: "Fale conosco"
+      icon: "fa-envelope"
+      href: [mailto:arthur_sf@icloud.com]
+    - text: ""
+      icon: "fa-instagram"
+      href: [https://github.com/FerreiraAS/MAMA]
+    - text: ""
+      icon: "fa-facebook"
+      href: [https://github.com/FerreiraAS/MAMA]
+    - text: ""
+      icon: "fa-github"
+      href: [https://github.com/FerreiraAS/MAMA]
+
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css:
+      - style.css
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    edit: null
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: yes
+      all:
+        - facebook
+        - twitter
+        - google
+---
