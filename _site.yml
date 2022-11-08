@@ -7,9 +7,6 @@ author:
 repository_url: https://github.com/FerreiraAS/MAMA
 creative_commons: CC BY-NC-SA
 output_dir: docs
-include:
-  - header.html
-  - footer.html
 bibliography:
   - references.bib
 link-citations: yes
@@ -172,8 +169,6 @@ output:
   html_document:
     theme: flatly
     highlight: textmate
-    include:
-      after_body: footer.html
     css:
       - style.css
     toc: true
